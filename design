@@ -1,0 +1,21 @@
+quiz-app/
+│
+├── client/                       # Frontend (Vite + React)
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/               # Images, icons, etc. (optional)
+│   │   ├── components/           # Reusable UI components (QuizCard, Button, etc.)
+│   │   ├── pages/                # Route-level pages (Home, QuizPage, ResultsPage)
+│   │   ├── context/              # React context (AuthContext, QuizContext)
+│   │   ├── services/             # Axios API services
+│   │   ├── utils/                # Helper functions (formatting, validation, etc.)
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/                       # Backend (Express + MongoDB)
+│   ├── config/                   # DB connection, environment setup
+│   │   └── db.js
+│   ├── controllers/              # Logic for each route (quizController, authController
